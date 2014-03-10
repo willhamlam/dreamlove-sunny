@@ -10,6 +10,7 @@
  <head>
  	<meta charset="UTF-8">
  	<title>dream.love</title>
+ 	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
  	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/main.css">
  </head>
@@ -23,19 +24,15 @@
  		 		<?php 
 
  		 			if($name == ""){
- 		 				echo '<a href="index.php" title="" class="success-button"><img src="img/success-btn.png" alt=""></a>
- 		 					</div>
- 		 					</div>
-					 		 <footer>
-					 		 </footer>
-						 </body>
-						 </html>';
- 		 				exit;
+ 		 				header( "Location: index.php" );
  		 			}
  		 			
- 		 			echo '<div class="success"><img src="img/success.png" alt=""></div>';
+ 		 			echo '<div class="success">
+						<img src="img/check.jpg" alt="">
+						<p>你已成功报名</p>
+ 		 			</div>';
 
- 		 			$outputstring = "姓名: ".$name."\t 电话: ".$phone."\t 学号: ".$number."\t 是否: ".$confirm."\n;
+ 		 			$outputstring = "姓名: ".$name."\t 电话: ".$phone."\t 学号: ".$number."\t 百公里: ".$confirm."\n";
 
  		 			@ $fp = fopen("signups.txt",'ab');
 
