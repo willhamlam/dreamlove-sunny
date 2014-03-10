@@ -1,11 +1,11 @@
 input {
 	-webkit-appearance: none;
-	border: 3px solid #008FFF;
+	border: 1px solid #e31936;
 	height: 40px;
 	width: 100%;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 	margin-bottom: 20px;
 	font-size: 15px;
 	-webkit-box-sizing: border-box;
@@ -14,31 +14,27 @@ input {
 	padding: 10px;
 	outline: none;
 	text-align: center;
-	color: #008FFF;
+	color: #e31936;
 }
 input[type="submit"]{
-	background-color: #FF4FAB;
+	background-color: #e31936;
 	color: #fff;
 	border: 0px;
 }
-/*.footer{
-	margin-top: -50px;
-}*/
-/**/
 ::-webkit-input-placeholder {
-   color: #008FFF;
+   color: #e31936;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: #008FFF;  
+   color: #e31936;  
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #008FFF;  
+   color: #e31936;  
 }
 
 :-ms-input-placeholder {  
-   color: #008FFF;  
+   color: #e31936;  
 }
 
 .header img{
@@ -51,7 +47,7 @@ input[type="submit"]{
      display: none;
     }*/
     .main{
-			margin-top: -120px;
+			/*margin-top: -120px;*/
 		}
 .main.success{
 	margin-top: -180px;
@@ -61,7 +57,7 @@ input[type="submit"]{
 	margin-top: 20px;
 }
 .main{
-	padding: 20px;
+	/*padding: 20px;*/
 }
 .success-button img{
 	width: 100%;
@@ -81,7 +77,8 @@ input[type="submit"]{
 
 }
 .know-more{
-	color: #008FFF;
+	color: #e31936;
+	text-decoration: underline;
 	padding-bottom: 20px;
 }
 .signup{

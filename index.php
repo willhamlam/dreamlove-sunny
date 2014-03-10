@@ -2,28 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>dream.love</title>
+	<title>Sunny报名表</title>
 	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<div class="header">
-		<img src="img/love2bg.jpg" alt="">
+	<div class="header pd20">
+		<img src="img/sunny-bg.jpg" alt="">
 	</div>
 	<div class="main">
 		
-		</div>
-	<div class="footer">
+	</div>
+	<div class="footer mt30">
 
 		<div class="wrapper tc">
 			<form action="process.php" method="post">
 				<input type="text" placeholder="姓名" name="name">
 				<input type="text" placeholder="联系电话" name="phone" pattern="[0-9]*">
-				<input type="text" placeholder="学校" name="school">
-				<input type="submit" name="提交" value="加入 dream.love">
+				<input type="text" placeholder="学号" name="number">
+				<input type="text" placeholder="是否参加百公里" name="confirm">
+				<input type="submit" name="提交" value="加入 SKSUNNY">
 			</form>
-			<a href="more.php" class="mb20 know-more">点击了解dream.love</a>
+			<a href="more.php" class="mb20 know-more">点击了解SKSUNNY</a>
 		</div>	
 	</div>
 	<script src="js/zepto.js"></script>

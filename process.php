@@ -1,7 +1,8 @@
 <?php 
 	$name = $_POST['name'];
 	$phone = $_POST['phone'];
-	$school = $_POST['school'];
+	$number = $_POST['number'];
+	$confirm = $_POST['confirm'];
 	$DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
  ?>
  <!doctype html>
@@ -13,9 +14,9 @@
 	<link rel="stylesheet" href="css/main.css">
  </head>
  <body>
- 		 <div class="header">
- 		 		<img src="img/love2bg.jpg" alt="">
- 		 	</div>
+ 		 <div class="header pd20">
+				<img src="img/sunny-bg.jpg" alt="">
+		 </div>
  		 <div class="main success">
  		 	
  		 		
@@ -34,7 +35,7 @@
  		 			
  		 			echo '<div class="success"><img src="img/success.png" alt=""></div>';
 
- 		 			$outputstring = "姓名: ".$name."\t 电话: ".$phone."\t 学校: ".$school."\n";
+ 		 			$outputstring = "姓名: ".$name."\t 电话: ".$phone."\t 学号: ".$number."\t 是否: ".$confirm."\n;
 
  		 			@ $fp = fopen("signups.txt",'ab');
 
